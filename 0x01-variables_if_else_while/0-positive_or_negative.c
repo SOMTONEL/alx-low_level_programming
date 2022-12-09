@@ -6,7 +6,7 @@
  *
  * Description: 'prints number and some text'
  *
- * Result - Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
