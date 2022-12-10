@@ -15,7 +15,7 @@ int main(void)
 	int Lt = '0';
 
 	/* your code goes there */
-	for (Lt = '0'; Lt <= '9'; Le++)
+	for (Lt = '0'; Lt <= '9'; Lt++)
 	{
 		for (Le = '0'; Le <= '9'; Le++)
 		{
