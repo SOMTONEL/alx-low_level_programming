@@ -14,9 +14,10 @@ int main(void)
 	int Le;
 
 	/* your code goes there */
-	for (Le = '0'; Le <= '9'; Le++)
+	for (Le = 0; Le <= 9; Le++)
 	{
-		printf("%i\n", Le);
+		printf("%i", Le);
+		printf("\n");
 	}
 	return (0);
 }
