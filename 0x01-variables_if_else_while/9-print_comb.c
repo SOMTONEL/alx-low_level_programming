@@ -14,9 +14,14 @@ int main(void)
 	int Le;
 
 	/* your code goes there */
-	for (Le = '0'; Le <= '9'; Le++)
+	for (Le = '0'; Le < '9'; Le++)
 	{
 		putchar(Le);
+		if ((Le != 9))
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
