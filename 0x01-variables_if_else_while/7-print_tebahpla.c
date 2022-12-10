@@ -15,10 +15,9 @@ int main(void)
 	char Le;
 
 	/* your code goes there */
-	for (Le = 'z'; Le <= 'a'; Le--)
-	{
+	for (Le = 'z'; Le >= 'a'; Le--)
 		putchar(Le);
-	}
+
 	putchar('\n');
 	return (0);
 }

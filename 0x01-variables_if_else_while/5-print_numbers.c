@@ -17,7 +17,7 @@ int main(void)
 	for (Le = 0; Le <= 9; Le++)
 	{
 		printf("%i", Le);
-		printf("\n");
 	}
+	printf("\n");
 	return (0);
 }
