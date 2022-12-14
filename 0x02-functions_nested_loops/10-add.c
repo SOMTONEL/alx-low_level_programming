@@ -7,12 +7,13 @@
  *
  * @b: integer
  *
- * Return: Always 0 (Success)
+ * Return: Always c (Success)
  */
 
 int add(int n, int b)
 {
-	_putchar(n + b);
-	return (0);
+	int c = n + b;
+
+	return (c);
 }
 
