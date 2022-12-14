@@ -1,39 +1,30 @@
 #include "main.h"
 
 /**
- * jack_bauer - 'prints last digit of a number'
+ * times_table - 'prints times table of a number'
  *
  *
  * Return: 0 if n is 0
  */
 
-void jack_bauer(void)
+void times_table(void)
 {
-	int i = 0;
-	int j = 0;
-	int k = 0;
-	int l = 0;
+	int i, j, k;
 
-	for (i = 0; i < 3; i++)
+	for (i = 0; i <= 0; i++)
 	{
-		for (j = 0; j < 10; j++)
+		_putchar('0');
+		for (j = 0; j <= 9; j++)
 		{
-			if (i >= 2 && j >= 4)
-				continue;
-			for (k = 0; k < 6; k++)
-			{
-				for (l = 0; l < 10; l++)
-				{
-					_putchar(i % 10 + '0');
-					_putchar(j % 10 + '0');
-					_putchar(':');
-					_putchar(k % 10 + '0');
-					_putchar(l % 10 + '0');
-					_putchar('\n');
-				}
-			}
-
+			_putchar(',');
+			_putchar(' ');
+			k = j * i;
+			if (k < 10)
+				_putchar(' ');
+			else
+				_putchar((k / 10) + '0');
+			_putchar((k % 10) + '0');
 		}
+		_putchar('\n');
 	}
-
 }
