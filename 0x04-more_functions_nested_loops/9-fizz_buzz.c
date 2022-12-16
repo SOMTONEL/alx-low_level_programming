@@ -12,18 +12,16 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		int j = i % 3;
-		int k = i % 5;
 
-		if (j == 0)
+		if (i % 3 == 0)
 		{
 			printf("Fizz ");
 		}
-		else if (k == 0)
+		else if (i % 5 == 0)
 		{
 			printf("Buzz ");
 		}
-		else if (j == 0 && k == 0)
+		else if (i % 3 == 0 && i % 5 == 0)
 		{
 			printf("FizzBuzz ");
 		}
