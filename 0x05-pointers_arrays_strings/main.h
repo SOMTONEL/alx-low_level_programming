@@ -9,7 +9,7 @@ int _strlen(char *s);
 int _putchar(char c);
 void _puts(char *str);
 void print_rev(char *s);
-void more_numbers(void);
+void rev_string(char *s);
 void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
