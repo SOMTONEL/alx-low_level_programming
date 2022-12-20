@@ -8,7 +8,7 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 int _putchar(char c);
 void _puts(char *str);
-void print_most_numbers(void);
+void print_rev(char *s);
 void more_numbers(void);
 void print_line(int n);
 void print_diagonal(int n);
