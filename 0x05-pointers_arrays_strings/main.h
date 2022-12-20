@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 void reset_to_98(int *n);
-int _isdigit(int c);
+void swap_int(int *a, int *b);
 int mul(int a, int b);
 int _putchar(char c);
 void print_numbers(void);
