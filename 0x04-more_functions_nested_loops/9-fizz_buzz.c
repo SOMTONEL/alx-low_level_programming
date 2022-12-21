@@ -8,6 +8,7 @@
 
 int main(void)
 {
+	int W = 100;
 	int i;
 
 	i = 1;
@@ -17,15 +18,18 @@ int main(void)
 
 		if (i % 3 == 0)
 		{
-			printf(" Fizz");
+			printf("Fizz ");
 		}
 		else if (i % 5 == 0)
 		{
-			printf(" Buzz");
+			if (i < W)
+				printf("Buzz ");
+			else
+				printf("Buzz");
 		}
 		else if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf(" FizzBuzz");
+			printf("FizzBuzz ");
 		}
 		else
 		{
