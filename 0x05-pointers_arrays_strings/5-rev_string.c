@@ -14,8 +14,11 @@ void rev_string(char *s)
 	int N;
 	int temp;
 
-	for (L = 0; s[L] != '\0'; L++)
-		;
+	L = 0;
+	while (s[L] != '\0')
+	{
+		L++;
+	}
 	M = 0;
 	N = L - 1;
 	while (M < N)
