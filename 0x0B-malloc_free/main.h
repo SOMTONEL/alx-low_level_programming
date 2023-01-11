@@ -4,7 +4,7 @@
 char *create_array(unsigned int size, char c);
 int _putchar(char c);
 char *_strdup(char *str);
-int _islower(int c);
+char *str_concat(char *s1, char *s2);
 int _isalpha(int c);
 int print_sign(int n);
 int _abs(int);
