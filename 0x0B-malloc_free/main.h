@@ -3,7 +3,7 @@
 
 char *create_array(unsigned int size, char c);
 int _putchar(char c);
-void print_alphabet_x10(void);
+char *_strdup(char *str);
 int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
