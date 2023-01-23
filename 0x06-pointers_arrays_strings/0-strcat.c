@@ -10,7 +10,7 @@
 char *_strcat(char *dest, char *src)
 {
 	unsigned int i = 0, j = 0;
-	char *str = (char *)malloc(100);
+	char *str = (char *)malloc(200);
 
 	while (dest[i] != '\0')
 	{
