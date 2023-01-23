@@ -9,23 +9,13 @@
 
 char *_strcat(char *dest, char *src)
 {
-	unsigned int i = 0, j = 0;
-	char *str = (char *)malloc(200);
+	unsigned int i = 0, dest_len = 0;
 
-	while (dest[i] != '\0')
-	{
-		str[j] = dest[i];
-		i++;
-		j++;
-	}
+	while (dest[i++])
+		dest_len++;
 
-	i = 0;
-	while (src[i] != '\0')
-	{
-		str[j] = src[i];
-		i++;
-		j++;
-	}
-	str[j] = '\0';
-	return (str);
+	for (i = 0; src[i]; i++)
+		dest[dest_len++] = src[i];
+
+	return (dest);
 }
